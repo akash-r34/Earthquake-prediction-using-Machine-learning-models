@@ -12,7 +12,7 @@ Each row in the dataset represents a single earthquake event and includes the fo
 <li>Depth of the earthquake, measured in kilometers</li>
 <li>Magnitude of the earthquake on the Richter scale</li>
 <li>SRC = source</li>
-<li>sta - number of stations used for solution (range: 0 to ...)</li>
+<li>nst - number of stations used for solution (range: 0 to ...)</li>
 <li>close - distance of closest station to epicenter (range: 0 to ...)</li>
 <li>rms - root-mean-squared residual of solution (range: 0. to 1.)</li>
 <li>gap - azimuthal gap (range: 0 to 360)</li>

@@ -1,5 +1,5 @@
 # Earthquake-prediction-using-Machine-learning-models
-This project aims to predict the magnitude and probability of Earthquake occurring in a particular region using the historic data.
+This project aims to predict the magnitude and probability of Earthquake occurring in a particular region from the historic data of that region using various Machine leaning models.
 
 <h2>Dataset</h2>
 The dataset used in this project is called the "SOCR Earthquake Dataset," and it contains information about earthquakes that have occurred with a magnitude of 3.0 or greater worldwide.

@@ -8,7 +8,7 @@ Each row in the dataset represents a single earthquake event and includes the fo
 
 <ul>
 <li>Date and time of the earthquake in UTC (Coordinated Universal Time)</li>
-<li>Latitude and longitude of the epicenter, which is the point on the Earth's surface directly above where the earthquake occurred</li>
+<li>Latitude and longitude(in degree) of the epicenter, which is the point on the Earth's surface directly above where the earthquake occurred</li>
 <li>Depth of the earthquake, measured in kilometers</li>
 <li>Magnitude of the earthquake on the Richter scale</li>
 <li>SRC = source</li>

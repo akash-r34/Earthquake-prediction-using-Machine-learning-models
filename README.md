@@ -34,3 +34,6 @@ The SOCR Earthquake Dataset can be used to build machine learning models to pred
 </ol>
 <br>
 These are just a few examples of the many ways that machine learning models can be used with the SOCR Earthquake Dataset. The specific approach you take will depend on your research question and the goals of your analysis. In this project we focus mainly on Earthquake prediction and Magnitude prediction.
+<br>
+<h2>Class diagram</h2>
+<img src="https://user-images.githubusercontent.com/113085803/229195883-8aec511d-0e24-46c4-8cd2-67e4bdfb759c.png"/>

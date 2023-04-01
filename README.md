@@ -10,6 +10,7 @@ A project done for the course CSE3505 - Essentials of Data Analytics under <b>EL
 <li><b>AKSHAY GIRISH 20BCE1573</b> Github: <a href="https://github.com/Akshaykviit023">Akshaykviit023</a></li>
 </ul>
 <h2>Abstract</h2>
+Earthquakes are natural disasters that can cause significant damage and loss of life. Accurate prediction of earthquakes is essential for developing early warning systems, disaster planning, risk assessment, and scientific research.
 This project aims to predict the magnitude and probability of Earthquake occurring in a particular region from the historic data of that region using various Machine learning models.
 
 <h2>Dataset</h2>

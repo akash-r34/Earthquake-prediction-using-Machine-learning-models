@@ -82,5 +82,46 @@ Software used: <b>Tableau</b>
   <br>
 </div>
 
+<h2>Implementation</h2>
+Earthquakes are natural disasters that can cause significant damage and loss of life. Accurate prediction of earthquakes is essential for developing early warning systems, disaster planning, risk assessment, and scientific research.
+
+<h3>Linear Regression</h3>
+<p>Linear regression is a type of supervised machine learning algorithm that is used to model the linear relationship between a dependent variable (in this case, earthquake magnitude) and one or more independent variables (in this case, latitude, longitude, depth, and the number of seismic stations that recorded the earthquake).</p>
+
+<p>The basic idea behind linear regression is to find the line of best fit through the data that minimizes the sum of the squared residuals (the difference between the predicted and actual values of the dependent variable). The coefficients of the line of best fit are estimated using a method called ordinary least squares, which involves minimizing the sum of the squared residuals with respect to the coefficients.</p>
+
+<p>In this situation, we have used multiple linear regression to model the relationship between earthquake magnitude and latitude, longitude, depth, and the number of seismic stations that recorded the earthquake. The multiple linear regression model assumes that there is a linear relationship between the dependent variable (magnitude) and each of the independent variables (latitude, longitude, depth, and number of seismic stations), and that the relationship is additive (i.e., the effect of each independent variable on the dependent variable is independent of the other independent variables).</p>
+
+<p>Once the model has been fit to the data, we can use it to predict the magnitude of a new earthquake given its latitude, longitude, depth, and the number of seismic stations that recorded it. This can be useful for earthquake monitoring and early warning systems, as well as for understanding the underlying causes of earthquakes and improving our ability to predict them in the future.</p>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/113085803/229284656-286a3290-3c96-4929-ae31-761456cbc3e4.png">
+<b><i>Figure 5<br>Multiple linear regression plot using seaborn library(python)</i></b>
+ <br>
+ <br>
+</div>
+
+<p>The linear regression equation used in our multiple linear regression model for earthquake magnitude prediction with latitude, longitude, depth, and number of seismic stations as independent variables can be written as:</p>
+
+<p>Magnitude = -0.6028 * Latitude + 1.2012 * Longitude - 0.0008 * Depth + 0.0239 * No_of_stations + 0.1573</p>
+
+<p>Where:</p>
+<ul>
+<li>Magnitude is the dependent variable, representing the magnitude of the earthquake</li>
+<li>Latitude, Longitude, Depth, and No_of_stations are the independent variables</li>
+<li>The coefficients (-0.6028, 1.2012, -0.0008, and 0.0239) represent the slopes of the regression line for each independent variable</li>
+<li>The intercept (0.1573) represents the predicted magnitude when all independent variables are zero.</li>
+<li>This equation allows us to predict the magnitude of an earthquake based on its latitude, longitude, depth, and the number of seismic stations that recorded it. By plugging in the values of the independent variables for a given earthquake, we can obtain an estimate of its magnitude.</li>
+</ul>
+
+<h3>SVM</h3>
+---FINISH THE MODEL DESCRIPTION HERE--
+
+<h3>Naive Bayes</h3>
+---FINISH THE MODEL DESCRIPTION HERE--
+
+<h3>Random Forest</h3>
+---FINISH THE MODEL DESCRIPTION HERE--
+
 
 

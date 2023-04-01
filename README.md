@@ -54,3 +54,15 @@ These are just a few examples of the many ways that machine learning models can 
 <br>
 <h2>Class diagram</h2>
 <img src="https://user-images.githubusercontent.com/113085803/229195883-8aec511d-0e24-46c4-8cd2-67e4bdfb759c.png"/>
+
+<h2>Data visualization</h2>
+Software used: <b>Tableau</b>
+<br>
+<img src="https://user-images.githubusercontent.com/113085803/229277065-c75d240b-1b1c-4a42-a43a-53311275cdf0.png"/>
+<img src="https://user-images.githubusercontent.com/113085803/229195883-8aec511d-0e24-46c4-8cd2-67e4bdfb759c.png"/>
+<img src="https://user-images.githubusercontent.com/113085803/229277078-5e2a9ab0-10af-43f6-a862-7727770659ec.png"/>
+<img src="https://user-images.githubusercontent.com/113085803/229195883-8aec511d-0e24-46c4-8cd2-67e4bdfb759c.png"/>
+![Earthquake (identified by Event ID) and the number of stations recording it](https://user-images.githubusercontent.com/113085803/229277065-c75d240b-1b1c-4a42-a43a-53311275cdf0.png)
+
+![Uploading Earthquake magnitude and depth over the years.png…]()
+

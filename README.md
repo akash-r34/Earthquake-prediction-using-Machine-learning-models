@@ -1,4 +1,14 @@
 # Earthquake-prediction-using-Machine-learning-models
+
+A project done for the course CSE3505 - Essentials of Data Analytics under <b>ELANGO N M</b>
+
+<h3>Team members</h3>
+<ul>
+<li><b>AKASH R 20BCE1501</b> Github: akash-r34</li>
+<li><b>ARJUN BHARANI 20BCE1505</b> Github: ArjunBharani</li>
+<li><b>SHIVAM SHARMA 20BCE1442</b> Github: shivams-23</li>
+</ul>
+<h2>Abstract</h2>
 This project aims to predict the magnitude and probability of Earthquake occurring in a particular region from the historic data of that region using various Machine leaning models.
 
 <h2>Dataset</h2>

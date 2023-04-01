@@ -95,7 +95,7 @@ Earthquakes are natural disasters that can cause significant damage and loss of 
 <p>Once the model has been fit to the data, we can use it to predict the magnitude of a new earthquake given its latitude, longitude, depth, and the number of seismic stations that recorded it. This can be useful for earthquake monitoring and early warning systems, as well as for understanding the underlying causes of earthquakes and improving our ability to predict them in the future.</p>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/113085803/229284656-286a3290-3c96-4929-ae31-761456cbc3e4.png">
+<img src="https://user-images.githubusercontent.com/113085803/229284656-286a3290-3c96-4929-ae31-761456cbc3e4.png"><br>
 <b><i>Figure 5<br>Multiple linear regression plot using seaborn library(python)</i></b>
  <br>
  <br>

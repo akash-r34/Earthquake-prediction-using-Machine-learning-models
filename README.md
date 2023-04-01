@@ -10,7 +10,7 @@ A project done for the course CSE3505 - Essentials of Data Analytics under <b>EL
 <li><b>AKSHAY GIRISH 20BCE1573</b> Github: <a href="https://github.com/Akshaykviit023">Akshaykviit023</a></li>
 </ul>
 <h2>Abstract</h2>
-This project aims to predict the magnitude and probability of Earthquake occurring in a particular region from the historic data of that region using various Machine leaning models.
+This project aims to predict the magnitude and probability of Earthquake occurring in a particular region from the historic data of that region using various Machine learning models.
 
 <h2>Dataset</h2>
 The dataset used in this project is called the "SOCR Earthquake Dataset," and it contains information about earthquakes that have occurred with a magnitude of 3.0 or greater worldwide.

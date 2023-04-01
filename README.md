@@ -83,8 +83,14 @@ Software used: <b>Tableau</b>
 </div>
 
 <h2>Implementation</h2>
-Earthquakes are natural disasters that can cause significant damage and loss of life. Accurate prediction of earthquakes is essential for developing early warning systems, disaster planning, risk assessment, and scientific research.
+We will use four models in this project:
+<ol>
+<li>Linear regression</li>
+<li>Support Vector Machine(SVM)</li>
+<li>NaiveBayes</li>
+<li>Random Forest</li>
 
+</ol>
 <h3>Linear Regression</h3>
 <p>Linear regression is a type of supervised machine learning algorithm that is used to model the linear relationship between a dependent variable (in this case, earthquake magnitude) and one or more independent variables (in this case, latitude, longitude, depth, and the number of seismic stations that recorded the earthquake).</p>
 

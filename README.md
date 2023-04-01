@@ -1,7 +1,6 @@
 # Earthquake-prediction-using-Machine-learning-models
 
 A project done for the course CSE3505 - Essentials of Data Analytics under <b>ELANGO N M</b>
-
 <h3>Team members</h3>
 <ul>
 <li><b>AKASH R 20BCE1501</b> Github: <a href="https://github.com/akash-r34">akash-r34</a></li>
@@ -53,16 +52,35 @@ The SOCR Earthquake Dataset can be used to build machine learning models to pred
 These are just a few examples of the many ways that machine learning models can be used with the SOCR Earthquake Dataset. The specific approach you take will depend on your research question and the goals of your analysis. In this project we focus mainly on Earthquake prediction and Magnitude prediction.
 <br>
 <h2>Class diagram</h2>
+<div align="center">
 <img src="https://user-images.githubusercontent.com/113085803/229195883-8aec511d-0e24-46c4-8cd2-67e4bdfb759c.png"/>
-
+</div>
 <h2>Data visualization</h2>
 Software used: <b>Tableau</b>
 <br>
-<img src="https://user-images.githubusercontent.com/113085803/229277065-c75d240b-1b1c-4a42-a43a-53311275cdf0.png"/>
-<img src="https://user-images.githubusercontent.com/113085803/229195883-8aec511d-0e24-46c4-8cd2-67e4bdfb759c.png"/>
-<img src="https://user-images.githubusercontent.com/113085803/229277078-5e2a9ab0-10af-43f6-a862-7727770659ec.png"/>
-<img src="https://user-images.githubusercontent.com/113085803/229195883-8aec511d-0e24-46c4-8cd2-67e4bdfb759c.png"/>
-![Earthquake (identified by Event ID) and the number of stations recording it](https://user-images.githubusercontent.com/113085803/229277065-c75d240b-1b1c-4a42-a43a-53311275cdf0.png)
+<br>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/113085803/229277065-c75d240b-1b1c-4a42-a43a-53311275cdf0.png"/><br>
+  <b><i>Figure 1<br> Earthquake (identified by Event ID) and the number of stations recording it</i></b>
+  <br>
+  <br>
 
-![Uploading Earthquake magnitude and depth over the years.png…]()
+  <img src="https://user-images.githubusercontent.com/113085803/229278389-8b9951d6-a06b-4316-bed9-fa220b5170a8.png"/>
+  <b><i>Figure 2<br>Earthquake based on its magnitude</i></b>
+  <br>
+  <br>
+  
+  <img src="https://user-images.githubusercontent.com/113085803/229277078-5e2a9ab0-10af-43f6-a862-7727770659ec.png"/>
+  <b><i>Figure 3<br>EEarthquake based on its magnitude type</i></b>
+  <br>
+  <br>
+  
+  <img alt ="[Earthquake magnitude and depth over the years]"
+       src="https://user-images.githubusercontent.com/113085803/229277278-88821402-2d5d-4beb-8644-e2b0b9bd73c0.png"/>
+  <b><i>Figure 4<br>Earthquake magnitude and depth over the years</i></b>
+  <br>
+  <br>
+</div>
+
+
 

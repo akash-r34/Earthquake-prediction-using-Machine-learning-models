@@ -136,7 +136,7 @@ SVM can handle both linear and non-linear data by using different kernels that t
 Once the SVM model has been trained on the data, it can be used to predict the magnitude of a new earthquake given its features (latitude, longitude, depth, and number of seismic stations). This can be useful for predicting the magnitude of earthquakes in real-time and for better understanding the factors that contribute to earthquake occurrence.
 </p>
 <div align="center">
-<img src="ht"><br>
+<img src="https://github.com/akash-r34/Earthquake-prediction-using-Machine-learning-models/blob/main/images/SVM_plot.png"><br>
 <b><i>Figure 6<br>SVM plot using matplotlib.pyplot library(python)</i></b>
  <br>
  <br>

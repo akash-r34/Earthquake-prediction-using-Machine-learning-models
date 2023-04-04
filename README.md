@@ -121,7 +121,6 @@ We will use four models in this project:
 </ul>
 
 <h3>SVM</h3>
----FINISH THE MODEL DESCRIPTION HERE--
 <p>Support Vector Machines (SVM) is a type of supervised machine learning algorithm that can be used for both regression and classification tasks. The basic idea behind SVM is to find the best boundary that separates the data into different classes or predicts a continuous output variable (in this case, earthquake magnitude).
 </p>
 <p>
@@ -135,6 +134,20 @@ SVM can handle both linear and non-linear data by using different kernels that t
 </p>
 <p>
 Once the SVM model has been trained on the data, it can be used to predict the magnitude of a new earthquake given its features (latitude, longitude, depth, and number of seismic stations). This can be useful for predicting the magnitude of earthquakes in real-time and for better understanding the factors that contribute to earthquake occurrence.
+</p>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/113085803/229284656-286a3290-3c96-4929-ae31-761456cbc3e4.png"><br>
+<b><i>Figure 6<br>SVM plot using matplotlib.pyplot library(python)</i></b>
+ <br>
+ <br>
+</div>
+<p>
+The predicted values from SVM model when evaluated using metrics of linear regression:
+<br>
+MSE = 0.53
+<br>
+with R<sup>2</sup> = -1.92
+<br>
 </p>
 
 

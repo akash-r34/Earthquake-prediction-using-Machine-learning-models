@@ -10,10 +10,10 @@ A project done for the course CSE3505 - Essentials of Data Analytics under <b>EL
 </ul>
 <h2>Abstract</h2>
 Earthquakes are natural disasters that can cause significant damage and loss of life. Accurate prediction of earthquakes is essential for developing early warning systems, disaster planning, risk assessment, and scientific research.
-This project aims to predict the magnitude and probability of Earthquake occurring in a particular region from the historic data of that region using various Machine learning models.
+This project aims to predict the magnitude and probability of Earthquake occurring in a particular region (California, United States) from the historic data of that region using various Machine learning models.
 
 <h2>Dataset</h2>
-The dataset used in this project is called the <a href="http://socr.ucla.edu/docs/resources/SOCR_Data/SOCR_Data_Earthquakes_Over3.html">"SOCR Earthquake Dataset"</a>, and it contains information about earthquakes that have occurred with a magnitude of 3.0 or greater worldwide.
+The dataset used in this project is called the <a href="http://socr.ucla.edu/docs/resources/SOCR_Data/SOCR_Data_Earthquakes_Over3.html">"SOCR Earthquake Dataset"</a>, and it contains information about earthquakes that have occurred with a magnitude of 3.0 or greater in California, United States.
 
 Each row in the dataset represents a single earthquake event and includes the following information:
 

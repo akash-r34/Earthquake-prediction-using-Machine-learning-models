@@ -13,7 +13,7 @@ Earthquakes are natural disasters that can cause significant damage and loss of 
 This project aims to predict the magnitude and probability of Earthquake occurring in a particular region from the historic data of that region using various Machine learning models.
 
 <h2>Dataset</h2>
-The dataset used in this project is called the "SOCR Earthquake Dataset," and it contains information about earthquakes that have occurred with a magnitude of 3.0 or greater worldwide.
+The dataset used in this project is called the <a href="http://socr.ucla.edu/docs/resources/SOCR_Data/SOCR_Data_Earthquakes_Over3.html">"SOCR Earthquake Dataset"</a>, and it contains information about earthquakes that have occurred with a magnitude of 3.0 or greater worldwide.
 
 Each row in the dataset represents a single earthquake event and includes the following information:
 

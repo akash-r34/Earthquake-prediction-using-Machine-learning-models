@@ -120,6 +120,12 @@ We will use four models in this project:
 <li>This equation allows us to predict the magnitude of an earthquake based on its latitude, longitude, depth, and the number of seismic stations that recorded it. By plugging in the values of the independent variables for a given earthquake, we can obtain an estimate of its magnitude.</li>
 </ul>
 
+<p>The results we obtained from the linear regression model were as follows:</p>
+<ul>
+  <li>Mean squared error (MSE): 0.17562</li>
+  <li>R-squared (R2) score: 0.03498</li>
+</ul>
+
 <h3>SVM</h3>
 <p>Support Vector Machines (SVM) is a type of supervised machine learning algorithm that can be used for both regression and classification tasks. The basic idea behind SVM is to find the best boundary that separates the data into different classes or predicts a continuous output variable (in this case, earthquake magnitude).
 </p>
@@ -142,12 +148,12 @@ Once the SVM model has been trained on the data, it can be used to predict the m
  <br>
 </div>
 <p>
-The predicted values from SVM model when evaluated using metrics of linear regression:
+The predicted values from SVM model when evaluated using mse and r2 metrics:
 <br>
-MSE = 0.53
-<br>
-with R<sup>2</sup> = -1.92
-<br>
+<ul>
+  <li>Mean squared error (MSE): 0.53166</li>
+  <li>R-squared (R2) score: -1.92129</li>
+</ul>
 </p>
 
 
@@ -157,7 +163,42 @@ with R<sup>2</sup> = -1.92
 ---FINISH THE MODEL DESCRIPTION HERE--
 
 <h3>Random Forest</h3>
----FINISH THE MODEL DESCRIPTION HERE--
+<p>Random forest is a machine learning algorithm that is used for both classification and regression tasks. It is an ensemble learning method that combines multiple decision trees to create a more accurate and robust model.</p>
+
+<p>The basic idea behind random forest is to create multiple decision trees, each trained on a subset of the data and a random subset of the features. Each tree makes a prediction, and the final prediction is the average (for regression) or the mode (for classification) of the individual tree predictions. By creating many trees and taking their average, random forest can reduce the impact of overfitting and improve the accuracy and stability of the model.</p>
+
+<p>In the code we provided earlier, we used the random forest algorithm to predict the magnitude of earthquakes based on their latitude, longitude, depth, and number of monitoring stations. We split the data into training and testing sets, trained the random forest model on the training data, and evaluated its performance on the test data using the mean squared error (MSE) and R-squared (R2) score.</p>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/113085803/230970752-3eab91ff-0b37-45c2-b2cf-ac689792f432.png"><br>
+<b><i>Figure 7<br>Actual vs Predicted</i></b>
+ <br>
+ <br>
+</div>
 
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/113085803/230970805-67816088-76ba-48eb-a62c-286c27af57af.png"><br>
+<b><i>Figure 8<br>Feature Importance Plot</i></b>
+ <br>
+ <br>
+</div>
 
+<p>The results we obtained from the random forest model were as follows:</p>
+<ul>
+  <li>Mean squared error (MSE): 0.15599</li>
+  <li>R-squared (R2) score: 0.14288</li>
+</ul>
+<p>These results indicate that the random forest model was able to accurately predict the magnitude of earthquakes based on the given features. The low MSE and high R2 score indicate that the model was making accurate predictions, and was able to explain a large proportion of the variance in the target variable.</p>
+
+<p>Overall, the random forest algorithm is a powerful tool for machine learning tasks, and can be used in a variety of applications, including finance, healthcare, and image recognition</p>
+
+
+<h3>Conclusion</h3>
+<p>When comparing two models, both the mean squared error (MSE) and R-squared (R2) score can be used to evaluate the performance of the models.</p>
+
+<p>In general, a model with a lower MSE and a higher R2 score is considered a better model. This is because the MSE measures the average difference between the predicted and actual values, and a lower MSE indicates that the model is making more accurate predictions. The R2 score measures the proportion of the variance in the target variable that is explained by the model, and a higher R2 score indicates that the model is able to explain more of the variability in the target variable.</p>
+
+<p>From the results of this project we can conclude that random forest is the most accurate model for predicting the magnitude of Earthquake compared to all other models used in this project.</p>
+
+<p>However, it's important to keep in mind that the relative importance of MSE and R2 score may vary depending on the specific problem and the context in which the models are being used. For example, in some cases, minimizing the MSE may be more important than maximizing the R2 score, or vice versa. It's also possible that one model may perform better on one metric and worse on another, so it's important to consider both metrics together when evaluating the performance of the models.</p>

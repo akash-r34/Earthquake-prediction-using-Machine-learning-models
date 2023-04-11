@@ -160,8 +160,6 @@ The predicted values from SVM model when evaluated using mse and r2 metrics:
 
 
 <h3>Naive Bayes</h3>
----FINISH THE MODEL DESCRIPTION HERE--
-
 <p>In statistics, naive Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong (naive) independence assumptions between the features (see Bayes classifier). They are among the simplest Bayesian network models,[1] but coupled with kernel density estimation, they can achieve high accuracy levels.</p>
 
 <p>Naive Bayes classifiers are highly scalable, requiring a number of parameters linear in the number of variables (features/predictors) in a learning problem. Maximum-likelihood training can be done by evaluating a closed-form expression,[3]: 718  which takes linear time, rather than by expensive iterative approximation as used for many other types of classifiers.</p>

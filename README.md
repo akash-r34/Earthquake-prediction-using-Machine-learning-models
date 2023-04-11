@@ -162,6 +162,38 @@ The predicted values from SVM model when evaluated using mse and r2 metrics:
 <h3>Naive Bayes</h3>
 ---FINISH THE MODEL DESCRIPTION HERE--
 
+<p>In statistics, naive Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong (naive) independence assumptions between the features (see Bayes classifier). They are among the simplest Bayesian network models,[1] but coupled with kernel density estimation, they can achieve high accuracy levels.</p>
+
+<p>Naive Bayes classifiers are highly scalable, requiring a number of parameters linear in the number of variables (features/predictors) in a learning problem. Maximum-likelihood training can be done by evaluating a closed-form expression,[3]: 718  which takes linear time, rather than by expensive iterative approximation as used for many other types of classifiers.</p>
+
+<p>In the code, we used the Naive Bayes classifier to predict the magnitude of earthquakes based on their latitude, longitude and number of monitoring stations. We split the data into training and testing sets, trained the Naive Bayes model on the training data, and evaluated its performance on the test data using the accuracy score, confusion matrix and classification report</p>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/91653887/231101816-a0286189-26f6-40dd-9706-0ec2092df1e2.png"><br>
+<img src="https://user-images.githubusercontent.com/91653887/231102550-4f3ed95e-285e-4bb2-b510-3d16f3fd4bbd.png"><br>
+<b><i>Figure<br>Actual vs Predicted</i></b>
+ <br>
+ <br>
+</div>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/91653887/231104197-ce82949b-ec2e-4530-9389-155848067148.png"><br>
+<b><i>Figure<br>Heatmap of Confusion Matrix</i></b>
+ <br>
+ <br>
+</div>
+
+
+<ul>
+  <li>Accuracy: 0.9853947125161767</li>
+  <li>Confusion Matrix:
+     [[5327   35    1]
+     [  38    3    1]
+     [   4    0    0]]</li>
+ </ul>
+
+
+
 <h3>Random Forest</h3>
 <p>Random forest is a machine learning algorithm that is used for both classification and regression tasks. It is an ensemble learning method that combines multiple decision trees to create a more accurate and robust model.</p>
 
